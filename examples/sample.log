@@ -1,0 +1,12 @@
+2026-11-06T09:00:01Z INFO service started
+2026-11-06T09:01:10Z ERROR connection to 10.0.0.5 timed out after 30s
+2026-11-06T09:02:20Z ERROR connection to 10.0.0.9 timed out after 45s
+2026-11-06T09:03:30Z WARNING disk usage at 91%
+2026-11-06T10:00:00Z ERROR connection to 10.0.0.5 timed out after 30s
+{"timestamp": "2026-11-06T10:01:00Z", "level": "error", "message": "payment webhook returned 502"}
+Traceback (most recent call last):
+  File "app.py", line 42, in handle
+    raise ValueError('bad input')
+ValueError: bad input
+Nov  6 10:05:00 myhost app[123]: ERROR cache eviction failed for key user:8842
+2026-11-06T10:06:00Z INFO recovered
